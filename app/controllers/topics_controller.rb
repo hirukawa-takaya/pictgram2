@@ -6,6 +6,7 @@ class TopicsController < ApplicationController
   
   def new
     @topic = Topic.new
+    @favorite=Favorite.new
   end
   
   def create
